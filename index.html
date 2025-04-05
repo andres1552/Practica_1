@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>División en 3 partes</title>
+    <style>
+        .contenedor {
+            display: flex; 
+        }
+        .seccion {
+            flex: 1; 
+            border: 1px solid black; 
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="contenedor">
+        <div class="seccion seccion-izquierda">
+            <h2>Sección Izquierda</h2>
+            <p>Contenido de la sección izquierda. Aquí puedes poner tu código para la rama izquierda.</p>
+        </div>
+        <div class="seccion seccion-centro">
+            <h2>Sección Central</h2>
+            <p>Contenido de la sección central. Aquí puedes poner tu código para la rama central.</p>
+        </div>
+        <div class="seccion seccion-derecha">
+            <h2>Sección Derecha</h2>
+            <p>Contenido de la sección derecha. Aquí puedes poner tu código para la rama derecha.</p>
+        </div>
+    </div>
 </body>
 </html>
